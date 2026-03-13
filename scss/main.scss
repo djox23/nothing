@@ -1,0 +1,484 @@
+
+@import './varijable';
+@import './miksini';
+@import './responsive';
+*{
+    padding:0px;
+    margin:0px;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+a {
+    color: inherit; 
+    text-decoration: none; 
+}
+html{
+    background-color: $primarnaboja1;
+}
+header{
+    width:100%;
+    height:85px;
+    @include boje1;
+    font-family: $font;
+    animation: pomeranjenadole 0.8s ease-in-out;
+    .headerokvir{
+        width:80%;
+        height:100%;
+        margin:0px auto;
+        display:flex; 
+        .headerdrzac{
+            width:50%;
+            height:100%;
+            #logo{
+                width:15%;
+                height:100%;
+                img{
+                    width:100%;
+                    height:100%;
+                }
+            }
+            nav{
+                widtH:100%;
+                height:100%;
+                ul{
+                    width:100%;
+                    height:100%;
+                    @include flex (flex, space-between, center);
+                    list-style-type: none;
+                    li{
+                        transition: all 45ms ease-in;
+                    }
+                    li:hover{
+                        border-bottom: 2px solid $bojaslova;
+                    }
+                }
+            }
+        }   
+    }
+}
+@keyframes pomeranjenadole {
+    0% {
+		transform: translateY(-100%);
+    }
+	100% {
+		transform: translateX(0%);
+    }
+}
+#slika {
+    width: 100%;
+    height: 600px;
+    @include flex (flex,center,center);
+    background-image: url("../img/sivo.jpg");
+    font-family: $font;
+    color:$bojaslova;
+    .slikacentar {
+        width: 80%;
+        height: 200px;
+        @include flex (flex, space-between, center);
+        .natpis{
+            width:25%;
+            height:100%;
+            animation: pomeranjeudesno 0.8s ease-in-out;
+            h1{
+                
+                width:100%;
+                margin-top: 55px;
+            }
+            h2{
+                
+                width:100%;
+                margin-bottom: 55px;         
+            }
+        }
+        @keyframes pomeranjeudesno {
+            0% {
+                transform: translateX(-100%);
+            }
+            100% {
+                transform: translateX(0);
+            }
+        }
+        .natpis:nth-child(2){
+            @include flex (flex, space-between, center);
+            animation: pomeranjeulevo 0.8s ease-in-out;    
+            .dugme{
+                height:100%;
+                width: 50% ;
+                @include flex (flex, center, center);  
+                
+            }
+            a{
+                background-color: $primarnaboja1;
+                border-radius: $radius;
+                padding:20px 40px;
+                transition: background-color 0.5s, color 0.5s;
+            }
+            a:hover{
+                background-color: $bojaslova;
+                color: $primarnaboja1;
+            }
+        }
+        @keyframes pomeranjeulevo {
+            0% {
+                transform: translateX(100%);
+            }
+            100% {
+                transform: translateX(0);
+            }
+        }
+    }
+}
+#aboutme{
+    width:100%;
+    height:500px;
+    @include boje1;
+    font-family: $font;
+    .natpis{
+        width:100%;
+        height:50px;
+        @include flex (flex, center, flex-end);
+        color:$bojaslova;
+    }
+    .aboutmemain{
+        width:100%;
+        height:450px;
+        @include flex (flex,center,center);
+        .aboutmemaincentar{
+            @include blokcentar;
+            display: flex;
+            .about{
+                width:50%;
+                height:100%;
+                p{
+                    font-size: map-get($fontsize, dvadesetpet);
+                    margin: 10px 0px 10px 0px;
+                }
+                p:nth-child(5){
+                    margin-bottom: 50px;
+                }
+                .a{
+                    width:100%;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    a{
+                        border:2px solid $bojaslova;
+                        border-radius: $radius;
+                        padding:20px 40px;
+                        transition: background-color 0.5s, color 0.5s;
+                    }
+                    a:hover{
+                        background-color: $bojaslova;
+                        color: $primarnaboja1;
+                    }
+                }
+                
+                .mojaslika{
+                    widtH:55%;
+                    height:100%;
+                    border-radius: $radius;
+                    img{
+                        width:100%;
+                        height:100%;
+                        border-radius: $radius;
+                    }
+                }
+            }
+        }
+    }
+    
+}
+#skills{
+    @extend #aboutme;
+    @include boje2;
+    .natpis{
+        width:100%;
+        height:50px;
+        @include flex (flex, center, flex-end);
+    }
+    .skillsmain{
+        width:100%;
+        height:450px;
+        @include flex (flex,center,center);
+        .skillsmaincentar{
+            @include blokcentar;
+            @include flex (flex, space-between, center);
+            .vestine{
+                height:92%;
+                width:20%;
+                border-radius: $radius;
+                border:2px solid $bojaslova;
+                transition: ease-in 0.3s;
+                .vestinanaziv{
+                    width:100%;
+                    height:20%;
+                    @include flex (flex,center,flex-start);
+                }
+                .vestinaikonica{
+                    width:100%;
+                    height:80%;
+                    @include flex (flex,center,center);
+                    i{
+                        font-size: map-get($fontsize, stopedeset);
+                    }
+                }
+            }
+            .vestine:hover {
+                transform: scale(0.95);
+            }
+        }
+    }
+}
+#services{
+    @extend #aboutme;
+    .natpis{
+        width:100%;
+        height:50px;
+        @include flex (flex, center, flex-end);
+    }
+    .servicessmain{
+        width:100%;
+        height:450px;
+        @include flex (flex,center,center);
+        .servicesmaincentar{
+            @include blokcentar;
+            @include flex (flex, space-between, center);
+            .usluge{
+                height:92%;
+                width: 20%;
+                background-color: $primarnaboja1;
+                border-radius: $radius;
+                border:2px solid $bojaslova;
+                padding:10px;
+                transition: all 0.3s;
+                i{
+                    margin-top: 20px;
+                    margin-bottom: 10px;
+                    text-align: center;
+                    display: block;
+                    font-size: map-get($fontsize, dvadeset);
+                }
+                h2{
+                    margin-top: 20px;
+                    margin-bottom: 10px;
+                    text-align: center;
+                    display: block;
+                }
+                p{
+                    margin-top: 20px;
+                    margin-bottom: 10px;
+                    text-align: center;
+                    display: block;
+                    font-size: map-get($fontsize, dvadeset);
+                }
+            }
+            .usluge:hover {
+                transform: translateY(-8px);
+                box-shadow: 6px 6px 1px $bojaslova;
+            }
+        }
+    }
+}
+#projects{
+    @extend #aboutme;
+    @include boje2;
+    .natpis{
+        width:100%;
+        height:50px;
+        @include flex (flex, center, flex-end);
+    }
+    .projectsmain{
+        width:100%;
+        height:450px;
+        @include flex (flex,center,center);
+        .projectsmaincentar{
+            @include blokcentar;
+            @include flex (flex, space-between, center);
+            .projekat{
+                width: 30%;
+                height:100%;
+                img{
+                    width:100%;
+                    height:80%;
+                    border-radius: $radius;
+                    transition: transform 0.2s ease;
+                }
+                img:hover {
+                    transform: scale(1.03);
+                }
+                p{
+                    margin-top: 32px;
+                    text-align: center;
+                }
+            }
+        }
+    }
+}
+#contact{
+    @extend #aboutme;
+    height:600px;
+    .natpis{
+        width:100%;
+        height:50px;
+        @include flex (flex, center, flex-end);
+    }
+    .contactmain{
+        width:100%;
+        height:550px;
+        @include flex (flex,center,center);
+        .contactmaincentar{
+            @include blokcentar;
+            @include flex (flex, space-between, center);
+            .kontaktsadrzaj{
+                widtH:50%;
+                height:100%;
+                @include flex (flex,center,center);
+                form{
+                    width:90%;
+                    height:80%;
+                    .forma{
+                        @include flex (flex, space-between, center);
+                        input{
+                            width:48%;
+                            height:60px;
+                            padding:10px;
+                            border-radius:$radius;
+                            margin-bottom: 20px;
+                            border:1px solid $primarnaboja1;
+                            background-color: $bojaslova;
+                        }
+                    }
+                    input{
+                        width:100%;
+                        height:60px;
+                        padding:10px;
+                        border-radius:$radius;
+                        margin-bottom: 20px;
+                        border:1px solid $primarnaboja1;
+                        background-color: $bojaslova;
+                    }
+                    textarea{
+                        width:100%;
+                        height:160px;
+                        padding:10px;
+                        border-radius:$radius;
+                        margin-bottom: 15px;
+                        border:1px solid $primarnaboja1;
+                        background-color: $bojaslova;
+                    }
+                    .button1{
+                        @include flex (flex,center,center);
+                        width:100%;
+                        height:50px;
+                        button{
+                            width:25%;
+                            height:60px;
+                            text-align: center;
+                            padding:10px;
+                            border-radius:$radius;
+                            border:1px solid $bojaslova;
+                            background-color: $bojaslova;
+                            cursor: pointer;
+                            transition: background-color 0.5s, color 0.5s;
+                        }
+                        button:hover{
+                            background-color: $primarnaboja1;
+                            color: $bojaslova;
+                        }
+                    }
+                }
+                .kontaktinfo{
+                    width:45%;
+                    height:40%;
+                    p{
+                        margin: 15px 0px 15px 0px;
+                        font-size: map-get($fontsize, devetnaest);
+                        i{
+                            margin-right: 15px;
+                            font-size: map-get($fontsize, dvadeset);
+                        }                        
+                    }
+                    p:nth-child(4){
+                        text-align: center;
+                        i{
+                            margin-right:20px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+footer{
+    width:100%;
+    height:50px;
+    @include boje2;
+    font-family: $font;
+    @include flex (flex,center,center);
+    .footercentar{
+        width:80%;
+        height:100%;
+        @include flex (flex, space-between, center);
+    .footersadrzaj{
+        width:20%;
+        height:100%;
+        @include flex (flex,center,center);
+        i{
+            font-size: map-get($fontsize, dvadeset);
+            margin-right: 15px;
+        }
+        img{
+            width:60px;
+            height:92%;
+        }
+    }
+    }
+}
+
+
+
+//miksine i varijable sam stavio ovde da bi bilo manje ikonica koje zauzimaju prostor
+$primarnaboja1: #252222;
+$primarnaboja2: #333333;
+$bojaslova: #E0E0E0;
+$font:"Lato", sans-serif;
+$fontsize: (
+    "devetnaest":19px,
+    "dvadeset":20px,
+    "dvadesetpet":25px,
+    "stopedeset":150px,
+    "trinaest": 13px,
+    "petnaest": 15px
+);
+$sirina90: 90% ;
+$visina600: 600px;
+$visina550: 550px;
+$radius: 20px;
+
+
+
+@mixin flex($display, $justify, $align){
+    display:$display !important;
+    justify-content:$justify !important;
+    align-items:$align !important;
+}
+@mixin blokcentar {
+    width:80%;
+    height:90%;
+}
+@mixin boje1{
+    background-color: $primarnaboja1;
+    color:$bojaslova;
+}
+@mixin boje2{
+    background-color: $primarnaboja2;
+    color:$bojaslova;
+}
+@mixin padanje {
+    display: flex !important;
+    flex-wrap: wrap !important;
+}
+@mixin margina5{
+    margin-top: 5px!important;
+    margin-bottom: 5px !important;
+}

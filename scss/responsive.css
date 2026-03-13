@@ -1,0 +1,620 @@
+@media screen and (max-width: 1800px) {
+  .dugme {
+    width: 50% !important;
+  }
+  .usluge h2 {
+    font-size: 20px !important;
+  }
+  .usluge p {
+    margin-top: 15px !important;
+    font-size: 19px !important;
+  }
+}
+@media screen and (max-width: 1710px) {
+  .usluge {
+    padding: 5px !important;
+  }
+  .kontaktinfo p {
+    font-size: 15px !important;
+  }
+  .about p:nth-child(5) {
+    margin-bottom: 40px !important;
+  }
+  .about a {
+    padding: 10px 30px !important;
+  }
+  .slikacentar .natpis {
+    width: 28% !important;
+  }
+}
+@media screen and (max-width: 1533px) {
+  .usluge {
+    width: 23% !important;
+  }
+  .vestinaikonica i {
+    font-size: 140px !important;
+  }
+  .vestine {
+    width: 23% !important;
+  }
+  .about p {
+    font-size: 23px !important;
+    margin: 7px 0px 7px 0px !important;
+  }
+  .slikacentar .natpis {
+    width: 30% !important;
+  }
+  .projekat {
+    width: 31% !important;
+  }
+  .footersadrzaj {
+    width: 25% !important;
+  }
+}
+@media screen and (max-width: 1380px) {
+  .slikacentar .natpis {
+    width: 34% !important;
+  }
+  .kontaktinfo p {
+    font-size: 13px !important;
+  }
+  .kontaktinfo p i {
+    font-size: 13px !important;
+    margin-right: 9px !important;
+  }
+}
+@media screen and (max-width: 1333px) {
+  .headerokvir {
+    width: 90% !important;
+  }
+  .slikacentar {
+    width: 90% !important;
+  }
+  .aboutmemaincentar {
+    width: 90% !important;
+  }
+  .skillsmaincentar {
+    width: 90% !important;
+  }
+  .servicesmaincentar {
+    width: 90% !important;
+  }
+  .projectsmaincentar {
+    width: 90% !important;
+  }
+  .contactmaincentar {
+    width: 90% !important;
+  }
+  .footercentar {
+    width: 90% !important;
+  }
+}
+@media screen and (max-width: 1190px) {
+  .footersadrzaj {
+    width: 28% !important;
+  }
+  .usluge i {
+    margin-top: 5px !important;
+    margin-bottom: 5px !important;
+  }
+  .usluge h2 {
+    margin-top: 5px !important;
+    margin-bottom: 5px !important;
+  }
+  .usluge p {
+    margin-top: 5px !important;
+    margin-bottom: 5px !important;
+  }
+  .about p {
+    font-size: 22px !important;
+  }
+  .about p:nth-child(5) {
+    margin-bottom: 30px !important;
+  }
+  .vestinaikonica i {
+    font-size: 130px !important;
+  }
+  #logo {
+    width: 20% !important;
+  }
+}
+@media screen and (max-width: 1080px) {
+  #aboutme {
+    height: 600px !important;
+  }
+  #skills {
+    height: 600px !important;
+  }
+  #services {
+    height: 600px !important;
+  }
+  #projects {
+    height: 600px !important;
+  }
+  .aboutmemain {
+    height: 550px !important;
+  }
+  .skillsmain {
+    height: 550px !important;
+  }
+  .servicessmain {
+    height: 550px !important;
+  }
+  .projectsmain {
+    height: 550px !important;
+  }
+  .servicesmaincentar {
+    display: flex !important;
+    flex-wrap: wrap !important;
+  }
+  .usluge {
+    width: 47% !important;
+    height: 47% !important;
+    margin-bottom: 20px !important;
+  }
+  .projectsmaincentar {
+    display: flex !important;
+    flex-wrap: wrap !important;
+    justify-content: space-around !important;
+  }
+  .projekat {
+    width: 41% !important;
+    height: 48% !important;
+  }
+  .projekat p {
+    margin-top: 15px !important;
+  }
+  .projekat:nth-child(3) {
+    margin: 0 auto !important;
+  }
+  .vestine {
+    height: 80% !important;
+  }
+  .vestine .vestinaikonica i {
+    font-size: 110px !important;
+  }
+  .headerdrzac:nth-child(1) {
+    width: 40% !important;
+  }
+  .headerdrzac:nth-child(2) {
+    width: 60% !important;
+  }
+  .slikacentar .natpis {
+    width: 39% !important;
+  }
+  .about p {
+    margin: 10px 0px 10px 0px !important;
+    font-size: 23px !important;
+  }
+  .about p:nth-child(5) {
+    margin-bottom: 50px !important;
+  }
+  .mojaslika {
+    width: 80% !important;
+  }
+  #logo {
+    width: 25% !important;
+  }
+  .kontaktinfo {
+    width: 55% !important;
+  }
+}
+@media screen and (max-width: 950px) {
+  .headerdrzac:nth-child(1) {
+    width: 30% !important;
+  }
+  .headerdrzac:nth-child(1) #logo {
+    width: 40% !important;
+  }
+  .headerdrzac:nth-child(2) {
+    width: 70% !important;
+  }
+  .slikacentar .natpis {
+    width: 43% !important;
+  }
+  .skillsmaincentar {
+    display: flex !important;
+    flex-wrap: wrap !important;
+  }
+  .vestine {
+    width: 47% !important;
+    height: 47% !important;
+    margin-bottom: 20px !important;
+  }
+  form {
+    width: 100% !important;
+  }
+  .kontaktsadrzaj:nth-child(2) {
+    justify-content: flex-end !important;
+  }
+  .footersadrzaj {
+    width: 31% !important;
+  }
+  .footersadrzaj:nth-child(1) {
+    justify-content: flex-end !important;
+  }
+  .footersadrzaj:nth-child(3) {
+    justify-content: flex-start !important;
+  }
+  .button1 button {
+    width: 28% !important;
+  }
+}
+@media screen and (max-width: 890px) {
+  .headerdrzac:nth-child(1) {
+    width: 20% !important;
+  }
+  .headerdrzac:nth-child(1) #logo {
+    width: 70% !important;
+  }
+  .headerdrzac:nth-child(2) {
+    width: 80% !important;
+  }
+  .slikacentar .natpis {
+    width: 48% !important;
+  }
+  .about p {
+    margin: 10px 0px 10px 0px !important;
+    font-size: 22px !important;
+  }
+  .about p:nth-child(5) {
+    margin-bottom: 23px !important;
+  }
+  .usluge p {
+    font-size: 17px !important;
+  }
+  .kontaktinfo {
+    width: 65% !important;
+  }
+  .kontaktsadrzaj:nth-child(1) {
+    align-items: flex-start !important;
+  }
+  .kontaktsadrzaj:nth-child(1) form {
+    height: 100% !important;
+  }
+  .kontaktsadrzaj:nth-child(1) form .forma {
+    display: flex !important;
+    flex-wrap: wrap !important;
+  }
+  .kontaktsadrzaj:nth-child(1) form .forma input {
+    width: 100% !important;
+  }
+  .kontaktsadrzaj:nth-child(1) form .button1 button {
+    width: 30% !important;
+  }
+  .footersadrzaj p {
+    font-size: 15px !important;
+  }
+  .footersadrzaj i {
+    font-size: 15px !important;
+  }
+}
+@media screen and (max-width: 800px) {
+  .headerdrzac:nth-child(1) {
+    width: 20% !important;
+  }
+  .headerdrzac:nth-child(1) #logo {
+    width: 75% !important;
+  }
+  .slikacentar {
+    display: flex !important;
+    flex-wrap: wrap !important;
+    width: 50% !important;
+    height: 40% !important;
+  }
+  .slikacentar .natpis {
+    width: 100% !important;
+    height: 50% !important;
+    text-align: center !important;
+  }
+  .slikacentar .natpis h1 {
+    margin-top: 0px !important;
+  }
+  .slikacentar .natpis h2 {
+    margin-bottom: 0px !important;
+  }
+  .slikacentar .natpis .dugme {
+    width: 50% !important;
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+  }
+  .usluge p {
+    font-size: 16px !important;
+  }
+  .aboutmemaincentar {
+    display: flex !important;
+    flex-wrap: wrap !important;
+  }
+  .aboutmemaincentar .about {
+    width: 100% !important;
+    height: 50% !important;
+  }
+  .aboutmemaincentar .about p {
+    font-size: 17px !important;
+  }
+  .aboutmemaincentar .about p:nth-child(1) {
+    margin: 0px 0px 10px 0px !important;
+  }
+  .aboutmemaincentar .about p:nth-child(5) {
+    margin-bottom: 20px !important;
+  }
+  .aboutmemaincentar .about .mojaslika {
+    width: 40% !important;
+    height: 90% !important;
+  }
+  .aboutmemaincentar .about a {
+    padding: 5px 25px !important;
+    text-align: center !important;
+  }
+  .aboutmemaincentar .about:nth-child(1) {
+    display: flex !important;
+    justify-content: center !important;
+    align-items: flex-start !important;
+  }
+}
+@media screen and (max-width: 720px) {
+  header {
+    height: 100px !important;
+  }
+  header .headerokvir {
+    display: block !important;
+  }
+  header .headerokvir .headerdrzac:nth-child(1) {
+    width: 100% !important;
+    height: 50% !important;
+    display: flex !important;
+    justify-content: center;
+    align-items: center !important;
+  }
+  header .headerokvir .headerdrzac:nth-child(1) #logo {
+    width: 20% !important;
+  }
+  header .headerokvir .headerdrzac:nth-child(2) {
+    width: 100% !important;
+    height: 50% !important;
+  }
+  #contact {
+    height: auto !important;
+  }
+  #contact .contactmain {
+    height: auto !important;
+    margin-top: 30px !important;
+  }
+  #contact .contactmain .contactmaincentar {
+    display: flex !important;
+    flex-wrap: wrap !important;
+    height: auto !important;
+  }
+  #contact .contactmain .contactmaincentar .kontaktsadrzaj {
+    height: auto !important;
+    width: 100% !important;
+    margin-bottom: 30px !important;
+  }
+  #contact .contactmain .contactmaincentar .kontaktsadrzaj form {
+    padding-bottom: 10px !important;
+  }
+  #contact .contactmain .contactmaincentar .kontaktsadrzaj:nth-child(2) {
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+  }
+  #contact .contactmain .contactmaincentar .kontaktsadrzaj:nth-child(2) .kontaktinfo {
+    width: 40% !important;
+  }
+  .vestine .vestinaikonica i {
+    font-size: 100px !important;
+  }
+  .vestine .vestinanaziv h1 {
+    font-size: 25px !important;
+  }
+}
+@media screen and (max-width: 700px) {
+  .slikacentar {
+    width: 60% !important;
+  }
+  .aboutmemaincentar .about p {
+    font-size: 15px !important;
+  }
+  .usluge p {
+    font-size: 15px !important;
+  }
+}
+@media screen and (max-width: 590px) {
+  header {
+    height: auto !important;
+  }
+  header .headerokvir {
+    height: auto !important;
+  }
+  header .headerokvir .headerdrzac:nth-child(2) {
+    display: flex !important;
+  }
+  header .headerokvir .headerdrzac:nth-child(2) nav ul {
+    display: block !important;
+    text-align: center !important;
+  }
+  header .headerokvir .headerdrzac:nth-child(2) nav ul li {
+    margin-bottom: 15px !important;
+  }
+  .slikacentar {
+    width: 70% !important;
+    height: auto !important;
+  }
+  .slikacentar .natpis:nth-child(1) {
+    margin-bottom: 30px !important;
+  }
+  .slikacentar .natpis:nth-child(2) {
+    display: flex !important;
+    flex-wrap: wrap !important;
+    height: auto !important;
+  }
+  .slikacentar .natpis:nth-child(2) .dugme {
+    width: 100% !important;
+    height: 50% !important;
+    margin-bottom: 15px !important;
+  }
+  #aboutme {
+    height: auto !important;
+  }
+  #aboutme .aboutmemain {
+    height: auto !important;
+    margin-top: 30px !important;
+  }
+  #aboutme .aboutmemain .aboutmemaincentar {
+    display: flex !important;
+    flex-wrap: wrap !important;
+    justify-content: center !important;
+    height: auto !important;
+  }
+  #aboutme .aboutmemain .aboutmemaincentar .about {
+    width: 80% !important;
+    height: 50% !important;
+    margin-bottom: 20px !important;
+  }
+  #aboutme .aboutmemain .aboutmemaincentar .about .mojaslika {
+    width: 50% !important;
+  }
+  #skills {
+    height: auto !important;
+  }
+  #skills .skillsmain {
+    height: auto !important;
+    margin-top: 30px !important;
+  }
+  #skills .skillsmain .skillsmaincentar {
+    display: flex !important;
+    flex-wrap: wrap !important;
+    justify-content: center !important;
+    height: auto !important;
+  }
+  #skills .skillsmain .skillsmaincentar .vestine {
+    width: 80% !important;
+    height: 200px !important;
+    margin: 20px auto !important;
+  }
+  #services {
+    height: auto !important;
+  }
+  #services .servicessmain {
+    height: auto !important;
+    margin-top: 30px !important;
+  }
+  #services .servicessmain .servicesmaincentar {
+    display: flex !important;
+    flex-wrap: wrap !important;
+    justify-content: center !important;
+    height: auto !important;
+  }
+  #services .servicessmain .servicesmaincentar .usluge {
+    width: 80% !important;
+    height: 200px !important;
+    margin: 20px auto !important;
+  }
+  #projects {
+    height: auto !important;
+  }
+  #projects .projectsmain {
+    height: auto !important;
+    margin-top: 30px !important;
+  }
+  #projects .projectsmain .projectsmaincentar {
+    display: flex !important;
+    flex-wrap: wrap !important;
+    justify-content: center !important;
+    height: auto !important;
+  }
+  #projects .projectsmain .projectsmaincentar .projekat {
+    width: 80% !important;
+    height: 200px !important;
+    margin: 15px auto !important;
+  }
+  #projects .projectsmain .projectsmaincentar .projekat:nth-child(3) {
+    margin-bottom: 30px !important;
+  }
+  form {
+    width: 80% !important;
+  }
+  #contact .contactmain .contactmaincentar .kontaktsadrzaj:nth-child(2) .kontaktinfo {
+    width: 50% !important;
+  }
+}
+@media screen and (max-width: 475px) {
+  #contact .contactmain .contactmaincentar .kontaktsadrzaj:nth-child(2) .kontaktinfo {
+    width: 60% !important;
+  }
+  .footersadrzaj p {
+    font-size: 13px !important;
+  }
+  .footersadrzaj i {
+    font-size: 13px !important;
+  }
+}
+@media screen and (max-width: 430px) {
+  header .headerokvir .headerdrzac:nth-child(1) #logo {
+    width: 30% !important;
+  }
+  .vestine .vestinaikonica i {
+    font-size: 90px !important;
+  }
+  .vestine .vestinanaziv h1 {
+    font-size: 20px !important;
+  }
+  .usluge p {
+    font-size: 14px !important;
+  }
+}
+@media screen and (max-width: 400px) {
+  .usluge p {
+    font-size: 13px !important;
+  }
+  #contact .contactmain .contactmaincentar .kontaktsadrzaj:nth-child(1) form .button1 button {
+    width: 40% !important;
+  }
+  #contact .contactmain .contactmaincentar .kontaktsadrzaj:nth-child(2) .kontaktinfo {
+    width: 70% !important;
+  }
+  footer {
+    height: auto !important;
+  }
+  footer .footercentar {
+    height: auto !important;
+    display: flex !important;
+    flex-wrap: wrap !important;
+  }
+  footer .footercentar .footersadrzaj {
+    width: 100% !important;
+    height: auto !important;
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+    margin-bottom: 10px !important;
+  }
+  footer .footercentar .footersadrzaj:nth-child(1) {
+    margin-top: 10px !important;
+  }
+}
+@media screen and (max-width: 350px) {
+  .usluge p {
+    font-size: 12px !important;
+  }
+  #contact .contactmain .contactmaincentar .kontaktsadrzaj:nth-child(2) .kontaktinfo {
+    width: 80% !important;
+  }
+}
+@media screen and (max-width: 326px) {
+  .usluge p {
+    font-size: 11px !important;
+  }
+  #contact .contactmain .contactmaincentar .kontaktsadrzaj:nth-child(2) .kontaktinfo {
+    width: 85% !important;
+  }
+}
+@media screen and (max-width: 290px) {
+  .usluge p {
+    font-size: 10px !important;
+  }
+  #contact .contactmain .contactmaincentar .kontaktsadrzaj:nth-child(2) .kontaktinfo {
+    width: 100% !important;
+  }
+}/*# sourceMappingURL=responsive.css.map */
